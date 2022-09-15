@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dynamic Gallery</title>
+
+<style>
+  footer{
+    font-style: italic;
+    }
+</style>
+</head>
+
+<body>
+
+  <main>  
+    <header>  
+      <h1>Dynamic Resolution Gallery</h1>
+      <p>Try resizing the browser to see different pictures!</p>
+    </header>
+  </main>
+
+  <hr>
+
+  <h3>Fallout</h3>
+  
+  <picture>
+    <source media="(min-width:769px)" srcset="fallout1.jpg">
+    <source media="(min-width:426px)" srcset="fallout2.jpg">
+    <source media="(min-width:321px)" srcset="fallout3.jpg">
+    <img src="fallout4.jpg" alt="Fallout" style="width:300px; height:300px">
+</picture>
+
+<hr>
+  
+    <h3>Hollow Knight</h3>
+  
+  <picture>
+    <source media="(min-width:769px)" srcset="hk1.jpg">
+    <source media="(min-width:426px)" srcset="hk2.jpg">
+    <source media="(min-width:321px)" srcset="hk3.jpg">
+    <img src="hk4.jpg" alt="Hollow Knight" style="width:300px; height:300px">
+</picture>
+
+<hr>
+  
+<h3>Huskey</h3>
+  
+  <picture>
+    <source media="(min-width:769px)" srcset="husky1.jpg">
+    <source media="(min-width:426px)" srcset="husky2.jpg">
+    <source media="(min-width:321px)" srcset="husky3.jpg">
+    <img src="husky4.jpg" alt="Huskey" style="width:300px; height:300px">
+</picture>
+
+<footer>
+  <br>
+  © 2022 Gregory Moen
+</footer>
+  
+</body>
+
+</html>
