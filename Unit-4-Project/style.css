@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  width: 80%;
+  background: royalblue;
+}
+
+p {
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: Calibri;
+  background-color: midnightblue;
+  color: darkorange;
+}
+
+h2 {
+  font-family: Futura;
+  background-color: darkred;
+  color: hotpink;
+}
+
+h3 {
+  font-family: Garamond;
+  background-color: paleturquoise;
+  color: darksalmon;
+}
+
+main {
+  background-color: blueviolet;
+}
+
+footer {
+  background-color: yellowgreen;
+  font-style: italic;
+}
