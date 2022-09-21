@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: beige;
+  box-shadow: 5px 5px 5px #676565;
+}
+
+div {
+  width: 90%;
+  margin: auto;
+}
+
+.itembox {
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: 3px 3px;
+  background-color: blanchedalmond;
+  color: #333333;
+  padding: 8px;
+}
+
+.favorite {
+  border: 3px double white;
+  border-radius: 25px;
+  box-shadow: 3px 3px;
+  background-color: #C4A484;
+  color: #444444;
+  padding: 8px;
+}
+
+.uol {
+  background-color: darkgreen;
+  padding: 20px;
+  color: white;
+  list-style-type: circle;
+}
+
+.oll {
+  background-color: darkblue;
+  padding: 20px;
+  color: white;
+  list-style-type: lower-roman; 
+}
+
+.navli {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 25px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
