@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    .img {
+      height: 300px;
+    }
+
+    #cursed {
+      border-image-slice:
+        42 42 42 42;
+      border-image-width:
+        42px 42px 42px 42px;
+      border-image-outset:
+        20px 20px 20px 20px;
+      border-image-repeat:
+        round round;
+      border-image-source:
+        url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+      border-style:
+        solid;
+    }
+
+    #wrapper {
+      color: black;
+      background: #abc;
+      width: 60%;
+      margin: auto;
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style-image: url("among-us-icon.png");
+    }
+
+    body {
+      background-image: url("giphy.gif");
+      background-size: cover;
+    }
+
+    main {
+      border-image-slice:
+        42 42 42 42;
+      border-image-width:
+        42px 42px 42px 42px;
+      border-image-outset:
+        0px 0px 0px 0px;
+      border-image-repeat:
+        round round;
+      border-image-source:
+        url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+      border-style:
+        solid;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div id="wrapper">
+    <main>
+      <div id="borderimg">
+
+        <ul>
+          <li>This div has a background color and a border image!</li>
+
+          <li>Here is the image used for the border image.</li>
+          <img src="https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg" alt="Border">
+          <li>This page has a background image.</li>
+          <li>This unordered list has images for list markers.</li>
+
+          <li>The image below has a border image.</li>
+        </ul>
+
+      </div>
+      <img id="cursed" src="among-us-cursed.jpg" alt="gif">
+    </main>
+
+  </div>
+</body>
+
+</html>
